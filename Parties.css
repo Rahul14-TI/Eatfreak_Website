@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --primary-color: #99a98f;
+    --decent-color: #d6e8db;
+    --accent-color: #fff;
+    --secondary-color: rgb(9, 189, 9);
+    --font-family: 'Poppins',sans-seri;
+    --text-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body{
+    background-color: #fff;
+    padding: 0 2%;
+    background-image: url(/weathered-concrete-surface-wallpaper-background.jpg);
+    background-size: cover;
+}
+.header{
+    padding: 1rem 0;
+}
+.header--menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.img2{
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border-radius: 5px;
+}
+
+.search--box{
+    background-color: var(--decent-color) ;
+    text-align: center;
+    font-weight: lighter;
+    flex: 1;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+
+.search--box input{
+    background: transparent;
+    padding: 10px;
+    width: 80%;
+}
+
+.menu--icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.menu--icons img3{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img3{
+    background: transparent !important;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+
+
+
+.heading{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.6;
+    color: #222;
+}
+
+
+h1{
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.card--list {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    gap: 250px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.card{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px;
+    border-radius: 10px;
+    background: var(--accent-color);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.card img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.card--price{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.card--price .price{
+    color: var(--primary-color);
+    font-weight: 600;
+    
+}
+
+
+.card--list01{
+   
+    display: flex;
+    padding-top: 80px;
+    padding-left: 450px;
+    padding-right: 450px;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.card01{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px;
+    border-radius: 10px;
+    background: var(--accent-color);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.card01 img{
+    width: 100%;
+}
+
+.card--price01{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.card--price01 .price{
+    color: var(--primary-color);
+    font-weight: 600;
+    
+}
+
+.card--title{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.card--title01{
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+
+
+

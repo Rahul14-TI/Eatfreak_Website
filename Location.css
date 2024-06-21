@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root{
+    --primary-color: #99a98f;
+    --decent-color: #d6e8db;
+    --accent-color: #fff;
+    --secondary-color: rgb(9, 189, 9);
+    --font-family: 'Poppins',sans-seri;
+    --text-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body{
+    background-color: #fff;
+    padding: 0 2%;
+    background-image: url(/weathered-concrete-surface-wallpaper-background.jpg);
+    background-size: cover;
+}
+.header{
+    padding: 1rem 0;
+}
+.header--menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.img2{
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border-radius: 5px;
+}
+
+.search--box{
+    background-color: var(--decent-color) ;
+    text-align: center;
+    font-weight: lighter;
+    flex: 1;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+
+.search--box input{
+    background: transparent;
+    padding: 10px;
+    width: 80%;
+
+}
+
+.card--list {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 330px;
+    padding-right: 330px;
+    gap: 250px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.card{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding:10px;
+    border-radius: 10px;
+    background: var(--accent-color);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.card iframe{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.card--location{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.card--location .location{
+    color: var(--primary-color);
+    font-weight: 600;
+    
+}
+
