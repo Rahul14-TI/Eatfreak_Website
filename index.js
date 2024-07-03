@@ -16,16 +16,19 @@ const goPrev = () => {
 
 const goNext = () => {
     counter++
+    if(counter >= slides.length){
+        counter = 0;
+    }
     slideimage()
 }
 
-// function autoslider(){
-//     deletInterval = setInterval(timer, 10000);
-//     function timer(){
-//         goNext();
-//     }
-// }
-// autoslider();
+function autoslider(){
+    deletInterval = setInterval(timer, 10000);
+    function timer(){
+        goNext();
+    }
+}
+autoslider();
 
 const slideimage = () =>{
     slides.forEach(
