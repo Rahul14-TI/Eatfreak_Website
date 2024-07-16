@@ -73,6 +73,7 @@ img{
     padding-top: 10px;
     padding-right: 100px;
     border-radius: 10px;
+    object-fit:fill;
 }
 
 a{
