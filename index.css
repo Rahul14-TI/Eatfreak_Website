@@ -209,73 +209,29 @@ footer{
     padding: 0;
 }
 
-.last01{
-    display: inline-block;
-    padding-top: 10px;
-    position: relative;
-
-}
-
-h5{
-    font-size: large;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-
-.no-bullet{
-    text-decoration: none;
-    padding-top: 10px;
-    font-size: medium;
-
-}
-
-.last02{
-    margin-top: 0px;
-   padding-left: 25%;
-   padding-top: 0px;
-   position: relative;
-    display: inline-flex;
-}
-
-.last03{
-    align-content: end;
-    margin-top: 0px;
-    padding-right: 20px;
-    
-
-}
-
-.no-bullet01{
-    padding-right: 0px;
-    text-decoration: none;
-    
-}
-
-#feedback{
-    margin-top: 10px;
-    padding-left: 75%;
-    padding-top: 0%;
-    position: relative;
-    border: 2px solid #f15b43;
-    font-size: 19px;
-    color: #f15b43;
-    padding: 13px 16px;
-    display: inline-block;
-    letter-spacing: 1px;
-    cursor: pointer;
-
-}
-
 .end{
-    margin: auto;
-    margin-top: 20px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    text-decoration: none;
+    height: 200px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: larger;
     background-color:#2c2c2c;
     color:#fff;
+    gap: 50px;
+}
+
+.no-bullet{ 
+    margin-top: 4vmin;
+    margin: auto;
+    height: 130px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: inherit;
+    gap: 20px;
+    line-height: 2rem;
 }
 
 
