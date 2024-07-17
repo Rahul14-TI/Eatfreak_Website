@@ -37,3 +37,14 @@ const slideimage = () =>{
         }
     )
 }
+
+const printlocation = () =>{
+    const dropdown = document.getElementById("location dropdown");
+    const selectedvalue = dropdown.value;
+    const output = document.getElementById('output');
+    if(selectedvalue=="Naharpur"){
+        output.innerText = `Undeliverable❌: ${selectedvalue}`;
+    }else{
+        output.innerText = `Location Available✅: ${selectedvalue}`;
+    }
+}
