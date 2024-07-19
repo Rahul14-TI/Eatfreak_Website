@@ -10,45 +10,50 @@
     <h2>Confirm Your Booking</h2>
     <div class="book">
         <div class="container">
-            <form>
+            <form id="myForm">
             <div class="info">
                 <label for="text">First name</label>
-                <input type="text" name="firstname" id="personel">
+                <input type="text" name="firstname" id="First">
             </div>
             <div class="info">
                 <label for="text">Last name</label>
-                <input type="text" name="lastname" id="personel">
+                <input type="text" name="lastname" id="Last">
             </div>
             <div class="info">
                 <label for="phone">Mobile No.</label>
-                <input type="number" name="phonenumber" id="personel">
+                <input type="number" name="phonenumber" id="phone" autocomplete="cc-number">
             </div>
             <div class="info">
                 <label for="catergory">Party  Type</label>
-                <select name="party type" id="personel">
+                <select name="Party" id="Party1" onchange="party_type()">
+                    <option value="None"></option>
                     <option value="Kitty Party">Kitty Party</option>
                     <option value="Birthday Party">Birthday Party</option>
                     <option value="get together">Get Together</option>
                 </select>
+                <p id="output"></p>
             </div>
             <div class="info">
                 <label for="Members">No. of Members</label>
-                <input type="number" name="Members" id="personel">
+                <input type="number" name="Members" id="Members" oninput="charge()">
+                <p id="para"></p>
             </div>
             <div class="info">
                 <label for="date">Date</label>
-                <input type="date" name="date" id="personel">
+                <input type="date" name="date" id="date">
             </div>
             <div class="info">
-                <input type="checkbox" name="confirmation" id="personel">
+                <input type="checkbox" name="confirmation" id="Box">
                 <label for="confirmation ">I Here by Confirm the Above Booking🗓️</label>
             </div>
             <div class="info">
-                <input type="submit"  id="personel">
+                <input type="submit"  id="submit" value="submit">
+                <p id="congrats"></p>
             </div>
             </form>
             
         </div>
     </div>
+    <script src="booking.js"></script>
 </body>
 </html>
