@@ -85,7 +85,18 @@ a{
     text-decoration: none;
     color: black;
     padding-right: 70px;
+    transition:all;
+    transition-duration: 6000;
 }
+
+a:hover{
+    text-decoration: none;
+    color:#d6523e;  
+}
+
+
+
+
 
 header {
     display:block;
@@ -229,11 +240,22 @@ footer{
     height: 130px;
     text-decoration: none;
     display: flex;
+<<<<<<< Updation-
+    gap: 7px;
+    line-height: 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+=======
     flex-wrap: inherit;
     gap: 20px;
     line-height: 2rem;
 }
 
+>>>>>>> main
 #output{
     padding-left: 0px;
     font-size:small;
@@ -290,9 +312,19 @@ footer{
         margin-right: 50px;
     }
 
-    #feedback {
-        padding-left: 60%;
-        margin-left: 0px;
+    .no-bullet{
+        margin-top: 5px;
+        padding-top: 2px;
+        height: 5rem;
+        width: 2rem;
+       display: flex;
+       font-size:small;
+       margin-left: 0;
+       gap: 2px;
+    }
+
+    a{
+        font-size: small;
     }
 }
 
@@ -349,13 +381,28 @@ footer{
     }
 
     .explore {
-        padding-left: 10%;
+        padding-left: 50%;
         margin-left: 50px;
         margin-right: 50px;
     }
 
     #feedback {
         padding-left: 50%;
+    }
+
+    .no-bullet{
+        margin-top: 5px;
+        padding-top: 2px;
+        height: 5rem;
+        width: 2rem;
+       display: flex;
+       font-size:small;
+       margin-left: 0;
+       gap: 2px;
+    }
+
+    a{
+        font-size: small;
     }
 }
 
@@ -413,7 +460,7 @@ footer{
     }
 
     .explore {
-        padding-left: 30%;
+        padding-left: 15%;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -421,7 +468,23 @@ footer{
     #feedback {
         padding-left: 30%;
     }
+
+    .no-bullet{
+        margin-top: 5px;
+        padding-top: 2px;
+        height: 5rem;
+        width: 2rem;
+       display: flex;
+       font-size:small;
+       margin-left: 0;
+       gap: 2px;
+    }
+
+    a{
+        font-size: small;
+    }
 }
+
 
 
   
