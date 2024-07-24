@@ -107,7 +107,6 @@ a:hover{
 
 
 
-
 header {
     display:block;
     text-align:center;
@@ -250,7 +249,6 @@ footer{
     height: 130px;
     text-decoration: none;
     display: flex;
-<<<<<<< Updation-
     gap: 7px;
     line-height: 2rem;
 }
@@ -259,13 +257,6 @@ ul{
     list-style-type: none;
 }
 
-=======
-    flex-wrap: inherit;
-    gap: 20px;
-    line-height: 2rem;
-}
-
->>>>>>> main
 #output{
     padding-left: 0px;
     font-size:small;
