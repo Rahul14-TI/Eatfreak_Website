@@ -85,14 +85,24 @@ a{
     text-decoration: none;
     color: black;
     padding-right: 70px;
-    transition:all;
-    transition-duration: 6000;
+    transition: 0.4s ease;
 }
 
 a:hover{
+    transform: translateY(-5px);
     text-decoration: none;
-    color:#d6523e;  
+    color: rgb(248, 83, 0)   
 }
+
+.Restaurant{
+    transition: 0.4s ease;
+}
+
+.Restaurant:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
 
 
 
