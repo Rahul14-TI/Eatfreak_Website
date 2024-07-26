@@ -57,7 +57,14 @@ body{
     gap: 250px;
     flex-wrap: wrap;
     margin-bottom: 2rem;
+    transition: all;
+    transition-duration: 1s;
 }
+
+.card--list:hover{
+    transform: translateY(-10px);
+}
+
 .card{
     width: 800px;
     display: flex;
@@ -89,6 +96,10 @@ body{
     font-weight: 600;
     
 }
+
+
+
+
 
 @media (max-width: 1200px) {
     .card--list {
