@@ -20,7 +20,7 @@ const charge = () =>{
     const Members = document.getElementById("Members");
     const items = Members.value;
     const para = document.getElementById('para');
-    if(items < 0){
+    if(items <= 0){
         alert("please enter Valid Members");
     }else{
         para.innerText = `Per person approx:₹500 Total:-₹${items*500}`;
