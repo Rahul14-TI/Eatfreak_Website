@@ -92,7 +92,7 @@ body{
 /* cover section  */
 
 .cover {
-    background-image: url(background.jpg);
+    background-image: url(Pictures/background.jpg);
     background-size: cover;
     height: 25vh;
     background-position:center;

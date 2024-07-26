@@ -21,7 +21,7 @@
 body{
     background-color: #fff;
     padding: 0 2%;
-    background-image: url(/weathered-concrete-surface-wallpaper-background.jpg);
+    background-image: url(Pictures/weathered-concrete-surface-wallpaper-background.jpg);
     background-size: cover;
 }
 .header{
