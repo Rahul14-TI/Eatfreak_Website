@@ -146,8 +146,8 @@ body{
 
 .card--list {
     display: flex;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 60px;
+    padding-right: 50px;
     gap: 65px;
     flex-wrap: wrap;
     margin-bottom: 2rem;
