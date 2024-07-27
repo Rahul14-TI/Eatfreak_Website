@@ -153,7 +153,7 @@ h3{
     width: 100%;
     height: 100%;
     padding-left: 0px;
-    transition: 1s ease-out;
+    transition: 1s;
     transition-duration: 3s;
     position: absolute;
 }
@@ -331,30 +331,8 @@ ul{
 
 /* For mobile devices */
 @media (max-width: 768px) {
-
-    body{
-        margin: 0;
-        padding: 0;
-    }
-
-    .contentBox{
-        padding-left: 2rem;
-        margin: auto;
-        display:inline-block;
-        font-size: small;
-    }
-
-    #navbar a{
-        padding-left: 5px;
-        display:inline-block;
-        font-size: small;
-        height: 10px;
-        margin: 5px;
-        gap:5px;
-    }
-
-    h3{
-        margin-top: 1rem;
+    #navbar {
+        height: 60px;
     }
 
     button {
@@ -382,15 +360,11 @@ ul{
         padding-right: 10px;
     }
 
-    .symbol img{
-        height: fit-content;
+    .symbol {
         width: 100%;
         margin-left: 0;
-        padding: 0;
-        display: flex;
-        image-rendering: optimizeQuality;
-        overflow-x: scroll;
-
+        flex-direction: column;
+        align-items: center;
     }
 
     h3 {
@@ -399,12 +373,8 @@ ul{
     }
 
     .slider {
-        height: max-content;
-        overflow: hidden;
-        margin-right: 0px;
-        margin-left: 0px;
-        padding-left: 0px;
-        padding-right: 4rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     p {
@@ -421,12 +391,6 @@ ul{
         padding-left: 50%;
     }
 
-    .end{
-        height: 10rem;
-        width:26rem;
-        overflow:scroll;
-    }
-
     .no-bullet{
         margin-top: 5px;
         padding-top: 2px;
@@ -435,16 +399,12 @@ ul{
        display: flex;
        font-size:small;
        margin-left: 0;
-       gap: 0;
+       gap: 2px;
     }
-
-   
 
     a{
         font-size: small;
     }
-    
-
 }
 
 /* For smaller mobile devices */
