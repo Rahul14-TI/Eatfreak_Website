@@ -5,11 +5,14 @@
 
 #navbar{
     height: 80px;
-    background-color: white;
     color: black;
+    padding-left: 15px;
 }
 
-
+main{
+    background-image: url(Pictures/cover-1.png);
+    background-size: cover;
+}
 
 #new{
     text-align: center;
@@ -17,12 +20,16 @@
     padding-right: 100px;
 
 }
-button{
+.new button{
     height: 40px;
     width: 80px;
     background-color:#f20000;
     color:#ffffff;
     border-radius:4px;
+    margin-top: 20px;
+    margin: auto;
+    display:inline-block;
+    margin-right: 20px;
     
 }
 
