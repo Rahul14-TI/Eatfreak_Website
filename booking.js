@@ -10,7 +10,7 @@ const party_type = () =>{
     const dropdown = document.getElementById("Party1");
     const items = dropdown.value;
     const output = document.getElementById('output');
-    if(items==="Kitty Party","Birthday Party","get together"){
+    if(items==="Corporate Events","Birthday Party","get together"){
     output.innerText = "Available!";
     }
 }
